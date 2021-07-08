@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dhoond 1</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+  </head>
+  <body>
+    <header>
+        <div class="site-title">
+            <a href="index.html">Samriddho Ghosh</a>
+        </div>
+
+        <nav>
+            <div class="category">Experience</div>
+            <div class="nav-links">
+                <ul>
+                    <li>
+                        <a href="index.html">GroundBlu</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="category">Project</div>
+            <div class="nav-links">
+                <ul>
+                    <li>
+                        <a href="dhoond-1.html">Dhoond 1.0</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Dhoond 2.0</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Project 3</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Project 4</a>
+                    </li>
+                </ul>
+            </div>
+<!--
+            <div class="category">Personal</div>
+            <div class="nav-links">
+                <ul>
+                    <li>
+                        <a href="index.html">Personal 1</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Personal 2</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Personal 3</a>
+                    </li>
+                    <li>
+                        <a href="index.html">Personal 4</a>
+                    </li>
+                </ul>
+            </div> -->
+
+            <div class="category"><a href="index.html">About & Resume</a></div>
+        </nav>
+    </header>
+
+    <div class="page-content">
+        <img src="images/dhoondh1-bbc.png" alt="bbc-covid-cover-img">
+        <div class="project-subheading">
+          A man outside a Delhi hospital devoid of any medical attention.  source - BBC News
+        </div>
+        <p class="dhoond-centre-text">
+          2021 saw a massive rise of covid cases in India, which was callled the second wave.
+          Resources were scarce, the health infrastructure of the nation came tumbling down.
+          Millions died, by simply not being able to access the right facility in the right time.
+        </p>
+        <div class="project-content">
+          <a class="DHOOND">DHOOND 1.0</a>  is a platform that lists all covid related resources (oxygen cylinders, hospital beds, ICU facilities, ambulances, food delivery) in a form of a map. This essentially enables a covid patient to find resources in and around their location in the nick of time. This helps because when the oxygen saturation percentage of a patient is running low, he/she does not have much time- then parsing through the huge amount of data on social media, does harm more than good. DHOOND 1.0 had a 15 member backend team that managed a hotline for resources that connected patients to the services in real time.
+          <br><br>
+          Having access to the correct information at the right time is the key to save lives in this pandemic.
+          <br><br>
+          DHOOND 1.0 is based on the city of KOLKATA primarily. Kolkata was one of the most affected cities during the second wave in India. With over 1,57,000 cases recorded in a month alone- Kolkata has been the 3rd perilious city in terms of daily cases in the country. To put Kolkata in persepective, these infographics below would help -
+        </div>
+        <br>
+        <img src="images/dhoondh1-city-land-area.png" alt="dhoond1.0-city-land-covered-area-1">
+        <br>
+        <img src="images/dhoond1-city-land-area-2.png" alt="dhoond1.0-city-land-covered-area-2">
+        <br><br>
+        <div class="project-content">
+          Now, during the second wave in India people resorted to social media as a way to reach out to other people to seek help for their patients. People asked for oxygen cylinders to ambulances -on twitter, facebook and instagram. Subsequently people who knew where these resources are available responded, however due to uneven dissemination of such huge amount of information the right person does not get the correct resource on time.
+        </div>
+        <br><br>
+        <img src="images/dhoond1-plea-request.png" alt="plea-requests-on-twitter-instagram-img">
+        <br><br>
+        <div class="project-content">
+          These were some of the plea tweets (out of millions) that were made in response to the resource scarcity during the second wave. Here we see that one aspect is common in these tweets- the  LOCATION, this is was leverage point from which a USER LOCATION based SERVICE was born.
+        </div>
+        <br><br>
+        <img src="images/dhoond1-page.png" alt="dhoond1-website-img">
+        <br><br>
+        <div class="project-content">
+          The map was created with google my maps, with the resource data (scraped from lead posts) being fed in and subequently being plotted as location points on the map. The leads as plotted on the map had all the required information that was required for a patient to access it in the nick of time.
+        </div>
+        <img src="images/dhoond1-structure.png" alt="dhoond1-website-structure-img">
+        <br><br>
+        <img src="images/dhoond1-search.png" alt="dhoond1-search-map-structure-img">
+        <div class="project-content">
+          The link above shall take you to the raw data set that was a result of both scraping social media and manual accumulation of posts. This data was then filtered, as many did not have location attributes and then plotted on Google my Maps.
+        </div>
+        <br><br>
+        <img src="images/dhoond1-data-map.png" alt="map-for-visualising-data-img">
+        <div class="project-content">
+          An interactive map was created for understanding and visualising the data we received on our website. A map assembly for the month of May has been shown. It primarily helped us to understand the most affected areas, so more attention could be imparted to those areas.
+        </div>
+        <br><br>
+        <img src="images/dhoond1-resource-distribution.png" alt="resource-distribution-for-affected-places-map">
+        <div class="project-content">
+          Salt Lake and Tiljala were 2 places with the most searches. So now, on analysing the resource
+distribution we see that at Salt Lake oxygen was most in demand and in Tiljala it was hospital beds. Subsequently more Salt Lake and Tiljala centric leads were pumped into DHOOND 1.0.
+        </div>
+        <br><br>
+        <img src="images/dhoond1-oxygen-requirement.png" alt="">
+        <div class="project-content">
+          During the day shift we see requirement of oxygen peaks between 10am to 12pm. The backend team working maintain this as ‘alert hours’ for catering more people during the time of surge.
+        </div>
+        <br><br>
+        <img src="images/dhoond1-daily-peaks.png" alt="daily-peak-search-hours">
+        <div class="project-content">
+          The graphic above shows peak time for site visits. This is just for the month of May. A median analysis showed us that most of the searches occured during 10 am to 1pm on an average day, the data being analysid for a period of 2 months.
+          <br><br>
+          <strong>This time frame of 10 am to 1pm is particularly important. </strong>
+          <br><br>
+          Following this, we were approached by the <strong>KOLKATA MUNICIPAL CORPORATION</strong> for  assisting them by engaging in a data sharing and consulting excercise. The above analysis played a small
+role in deciding lockdown timings in the state of West Bengal. Shops were allowed to open from
+7am to 10am. Post which the lockdown was initiated.
+        </div>
+        <br><br>
+        <img src="images/dhoond1-toi.png" alt="dhoond1-in-times-of-India">
+        <div style="margin-top: 20px; font-family: Gotham, Arial; font-size: 25px; font-weight: heavy;">
+          Our 'If I had a dollar, for everytime' moment !
+        </div>
+        <div class="project-content">
+          Bengal is famous for her sweets. In Kolkata, every good occasion is celebrated with sweets. <strong>‘Pantua’</strong> being the most eminent of all .
+          <br><br>
+  So I decided to have plates for every covid resource, we provided information on (of course graphically). We would add a <strong>Pantua</strong> everytime we received a positive feedback from our users. 8,000 + feedbacks were received, out of which 6418 were positive. The data visualisation was carried out on this sample set of 6418.
+<br><br>
+  This was our ‘If I had a dollar, for everytime’ moment.
+        </div>
+        <br><br>
+        <img src="images/dhoond1-feedback.png" alt="feedback messages for dhoond 1.0">
+        <br>
+        <img src="images/dhoond1-pantua.png" alt="pantua plates for dhoond 1.0">
+        <br><br>
+        <div class="project-content">
+          <strong>Thankfully, DHOOND 1.0 was pretty optimistically received by the people of Kolkata and we were featured in 7 leading media outlets that helped us to spread to the people of Kolkata and Bengal.</strong>
+        </div>
+        <br><br>
+        <div class="project-content">
+          The Times of India : May 12, 2021 <br>
+<a href="http://toi.in/gd3X5Z/a31gj" target="_blank">http://toi.in/gd3X5Z/a31gj</a> <br>
+<br>
+Zee 24 Ghanta : May 12, 2021 <br>
+<a href="https://www.facebook.com/Zee24Ghanta/videos/135062668655104/" target="_blank">https://www.facebook.com/Zee24Ghanta/videos/135062668655104/</a><br>
+<br>
+ABP Ananda : May 12, 2021 <br>
+<a href="https://www.facebook.com/watch/?v=260622045793403" target="_blank">https://www.facebook.com/watch/?v=260622045793403</a><br>
+<br>
+94.3 Radio One Kolkata : May 13, 2021 <br>
+<a href="https://m.facebook.com/story.php?story_fbid=1927498917424587&id=207469049427591" target="_blank">https://m.facebook.com/story.php?story_fbid=1927498917424587&id=207469049427591</a> <br>
+<br>
+Ei Samay, Times Group : May 15, 2021 <br>
+<a href="https://m.facebook.com/story.php?story_fbid=1927498917424587&id=207469049427591" target="_blank">https://www.facebook.com/107679274844637/posts/108721254740439/</a> <br>
+<br>
+The Times of India : May 20, 2021 <br>
+<a href="https://m.facebook.com/story.php?story_fbid=1927498917424587&id=207469049427591" target="_blank">http://toi.in/Fe_8Db/a31ga8</a> <br>
+<br>
+Kolkata 24x7 : May 21, 2021 <br>
+<a href="https://fb.watch/5DjjFEp5JP/" target="_blank">https://fb.watch/5DjjFEp5JP/</a> <br>
+<br>
+The New Indian Express- Edex Live : May 25, 2021 <br>
+<a href="https://www.edexlive.com/people/2021/may/25/these-kolkata-students-are-running-down-leads-via-their-covid-resource-website-flagging-frauds-21040.html" target="_blank">https://www.edexlive.com/people/2021/may/25/these-kolkata-students-are-running-down-leads-via-their-covid-resource-website-flagging-frauds-21040.html</a> <br>
+<br>
+        </div>
+        <br><br>
+        <div class="project-subheading" style="font-size: 13px;">
+          Note- A lot of this data visualisation was not present  during the time of the actual operation.Simple excel sheets worked to save time, given the scale of the crisis. The data has been visualised again for further
+research and strengthening of DHOOND 1.0 in the later stages. 
+        </div>
+      </div>
+  </body>
+</html>
